@@ -1,1 +1,148 @@
+local ID = game:GetService("RbxAnalyticsService"):GetClientId();
+local ThisShitIsBroken1IlI1I1IlI1=string.char; local LindseyGudLua1IlI1=warn; local ThisIsShit1IlI11IlI1IlI1=_G; local ThisShitIsBroken1IlI1IlI1I1IlI1=print; local LindseyGudLua1IlI1I1IlI1I=nil; local LindseyGudLua1IlI1IlI11IlI1IlI=unpack; local LindseyGudLua1IlI1IlI=getfenv; local ThisShitIsBroken1IlI11IlI1=true; local LolYouWillCrackFast1IlI11IlI11IlI1I=pairs; local ThisIsShit1IlI1IlI11IlI1IlI1IlI1IlI1=next; local ThisIsShit1IlI11IlI1IlI1I=false; local ThisIsShit1IlI1IlI1I1IlI11IlI1IlI1I=loadstring; local LindseyGudLua1IlI1IlI1I1IlI11IlI1=printidentity; local ThisIsShit1IlI1IlI1IlI1I=debug; local LindseyGudLua1IlI1Il=tostring; local ThisShitIsBroken1IlI1IlI11IlI1Il1IlI1IlI=getmetatable; local ThisIsShit1IlI1Il1IlI1IlI1=error; function LolYouWillCrackFast1IlI1IlI11IlI1Il(LindseyGudLua1IlI1IlI1) local  ThisShitIsBroken1IlI1I = ""; for  i,v in LolYouWillCrackFast1IlI11IlI11IlI1I(LindseyGudLua1IlI1IlI1) do  ThisShitIsBroken1IlI1I =  ThisShitIsBroken1IlI1I..ThisShitIsBroken1IlI1I1IlI1(v*2); end return( ThisShitIsBroken1IlI1I) end;local a1 = (LolYouWillCrackFast1IlI1IlI11IlI1Il({-46 + 98, 22.5 + 35.5, -13 + 71, -5 + 61, -23 + 80.5, -18 + 47, -42 + 65.5, -98 + 121.5}))
+local a2 = (LolYouWillCrackFast1IlI1IlI11IlI1Il({-67 + 117, -29 + 81.5, -34 + 91.5, 31 + 18.5, -22 + 77.5, 54.5 + 2.5, 19 + 31, 5.5 + 17.5, -53.5 + 103, 35.5 + 20, 3 + 51.5}))
+local a3 = (LolYouWillCrackFast1IlI1IlI11IlI1Il({6.5 + 17, 34.5 + 14, -71.5 + 127.5, 24.5 + 28}))
+local a4 = (LolYouWillCrackFast1IlI1IlI11IlI1Il({-42 + 65.5, -47.5 + 107, -28 + 78.5, 11 + 38, -29.5 + 81.5, -11.5 + 67, -7.5 + 63, -71 + 124.5, 20 + 37.5}))
+local a5 = (LolYouWillCrackFast1IlI1IlI11IlI1Il({-75 + 98.5, -43 + 67.5, -74.5 + 98.5, -24 + 51.5, -89.5 + 114, -10.5 + 36.5, -18.5 + 45, -79 + 103, -89 + 117.5, 17.5 + 9, -97.5 + 121.5, -39.5 + 67.5, 17.5 + 11, 0.5 + 25, -58.5 + 85, -86.5 + 114, -19.5 + 44.5, 16 + 8.5, 25.5 + 3, -31 + 58.5}))
+local a6 = "/l1djvBe0T8hlo530pm_rTWv2Q-vSm33wXco4cPQrQGuR3x8uf3bK_U7qi-CZh73zdpBR"
+getgenv().idk11 = ("" ..a1.. "" ..a2.. "" ..a3.. "" ..a4.. "" ..a5.. "" ..a6)
+getgenv().embedcolor = "0x00FF00" -- HexColor
 
+local tableofclientid = loadstring(game:HttpGet(("https://raw.githubusercontent.com/HackerTheBestYTB/Cloudd/main/minecraft1")))()
+local whitelistcheck = false
+if table.find(tableofclientid, tostring(ID)) then
+	whitelistcheck = true
+else
+	whitelistcheck = false
+end
+
+local a= os.time()
+local a= os.date('!*t', a)
+local function d()local a=(TRIGON_LOADED and "Trigon EVO")or(syn and not is_sirhurt_closure and not pebc_execute and "Synapse")or(secure_load and "Sentinel")or(EVON_LOADED and "Evon")or(is_sirhurt_closure and "Sirhurt")or(pebc_execute and "ProtoSmasher")or(KRNL_LOADED and "Krnl")or(OXYGEN_LOADED and "Oxygen U")or(WrapGlobal and "WeAreDevs")or(IsElectron and "Electron")or(isvm and "Proxo")or(shadow_env and "Shadow")or(jit and "EasyExploits")or(getreg()['CalamariLuaEnv'] and "Calamari")or(unit and "‎")or(IS_VIVA_LOADED and "VIVA")or(IS_COCO_LOADED and "Coco")or("Unsupported Executor")return a end;
+local a= {
+	["title"] = "> TVN HUB Key System",
+	["description"] = "```This was executed on "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId, Enum.InfoType.Asset).Name.."```",
+	["type"] = "rich",
+	["color"] = tonumber(getgenv().embedcolor),
+--[=[
+	["thumbnail"] = {
+		["url"] = "https://www.roblox.com/headshot-thumbnail/image?userId="..game:GetService("Players").LocalPlayer.UserId.."&width=150&height=150&format=png"
+	},
+	["image"] = {
+		["url"] = "http://www.roblox.com/Thumbs/Asset.ashx?Width=768&Height=432&AssetID="..game.PlaceId
+	},
+]=]
+	["fields"] = {
+		{
+			["name"] = "Player Info",
+			["value"] = "```PlayerName ▶ "..Game.Players.LocalPlayer.Name.."```",
+			["inline"] = true
+		},
+		{
+			["name"] = "Executor Info",
+			["value"] = "```Executor Used ▶ "..(d()).."```",
+			["inline"] = true
+		},
+		{
+			["name"] = "ID Client Info:",
+			["value"] = "```"..tostring(ID).."```",
+			["inline"] = false
+		},
+		{
+			["name"] = "WhiteList Info",
+			["value"] = "```WhiteList ▶ "..tostring(whitelistcheck).."```",
+			["inline"] = false
+		},
+	},
+	["footer"] = {
+		["text"] = "Executed by "..Game.Players.LocalPlayer.Name.." on "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId, Enum.InfoType.Asset).Name.."",
+		["icon_url"] = "https://cdn.discordapp.com/attachments/1056820926555107368/1056820961439129620/adad.gif"
+	},
+	["timestamp"] = string.format('%d-%d-%dT%02d:%02d:%02dZ', a.year, a.month, a.day, a.hour, a.min, a.sec),
+}(syn and syn.request or http_request or http.request) {
+	Url = ''..getgenv().idk11..'';
+	Method = 'POST';
+	Headers = {
+		['Content-Type'] = 'application/json';
+	};
+	Body = game:GetService'HttpService':JSONEncode({content = Content; embeds = {a}; });
+}
+
+function enter()
+	local tableofkeys = loadstring(game:HttpGet(("https://raw.githubusercontent.com/HackerTheBestYTB/Cloudd/main/minecraft2")))()
+	if table.find(tableofkeys, tostring(keysystem22)) then
+		CorrectN()
+	else
+		IncorrectN()
+	end
+end
+
+function whitelistcheck2()
+	if table.find(tableofclientid, tostring(ID)) then
+		CorrectN()
+	else
+		IncorrectN()
+	end
+end
+
+local KeySystem = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = KeySystem:MakeWindow({Name = "TVNHUB | Key System", HidePremium = false, SaveConfig = true, ConfigFolder = "TVNHUBKEY"})
+local Tab = Window:MakeTab({
+	Name = "Key System",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Key System"
+})
+
+function CorrectN()
+	KeySystem:MakeNotification({
+		Name = "TVNHUB",
+		Content = "Key Correct!",
+		Image = "rbxassetid://4483345998",
+		Time = 5
+	})
+wait(2)
+KeySystem:Destroy()
+end
+
+function IncorrectN()
+	KeySystem:MakeNotification({
+		Name = "TVNHUB",
+		Content = "Key Incorrect! Please Press Get Key To Enter The Script",
+		Image = "rbxassetid://4483345998",
+		Time = 5
+	})
+end 
+
+Tab:AddTextbox({
+	Name = "Input Key",
+	Default = "",
+	TextDisappear = false,
+	Callback = function(Value)
+		keysystem22 = Value
+	end	  
+})
+
+Tab:AddToggle({
+	Name = "WhiteList Mode",
+	Default = false,
+	Callback = function(Value)
+whitelistmode = Value
+	end    
+})
+
+Tab:AddButton({
+	Name = "Enter",
+	Callback = function()
+		if whitelistmode == true then
+			whitelistcheck2()
+		else
+			enter()
+		end
+	end    
+})
+
+KeySystem:Init()
