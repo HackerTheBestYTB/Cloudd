@@ -5,7 +5,7 @@ local data = {
 local latest = '3.7'
 function data.checkVersion()
     if data.version ~= latest then
-       print("Old Version")
+       message("Old Version")
     end
 end
 
