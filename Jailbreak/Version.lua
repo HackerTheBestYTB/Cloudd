@@ -2,7 +2,7 @@ local data = {
 	version = nil
 }
 
-local latest = '3.7'
+local latest = "3.7"
 function data.checkVersion()
 	if data.version ~= latest then
 		local PromptLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/HackerTheBestYTB/ScriptRoblox/test/PromptLibrary.lua"))()
