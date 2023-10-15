@@ -32,7 +32,7 @@ local defualt = 80
 			if getgenv().slienttoggled then
 				require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList = function(...)
 					local mousePos = camera.WorldToViewportPoint(camera, mouse.Hit.p)
-					local set = fovAmount * ((defualt - camera.FieldOfView) / 100 + 1)
+					local set = _G.fovAmount * ((defualt - camera.FieldOfView) / 100 + 1)
 					realFov = set
 					_G.fovCircle.Radius = set
 					_G.fovCircle.Position = Vector2.new(mousePos.X, mousePos.Y)
