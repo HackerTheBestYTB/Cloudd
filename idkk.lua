@@ -10,7 +10,7 @@ local tableofhwid = {
 }
 function data.checkHWID()
 	for _, value in ipairs(tableofhwid) do
-		if value == hwid then
+		if value == data.hwid then
 			hwidc = true
 			break
 		end
