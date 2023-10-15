@@ -20,4 +20,4 @@ function data.checkHWID()
 	end
 end
 
-return data, hwidc
+return data
