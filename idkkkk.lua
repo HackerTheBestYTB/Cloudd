@@ -1,4 +1,4 @@
-_G.SAWC2 = true
+_G.SAWC2 = false
 _G.nearestDistance1 = 600
 _G.fovAmount = 200
 local realFov = _G.fovAmount
@@ -7,9 +7,6 @@ local defualt = 80
 			local camera = workspace.CurrentCamera
 			local mouse = client:GetMouse()
 			local rs = game:GetService("RunService")
-			if activefix == false then
-
-			else
 				if getgenv().slienttoggled then
 					_G.fovCircle = Drawing.new("Circle")
 					_G.fovCircle.Radius = _G.fovAmount
@@ -20,7 +17,6 @@ local defualt = 80
 				else
 					_G.fovCircle:Remove()
 				end	
-			end
 			local function isPlayerInFront(player, targetPosition, cameraPosition)
 				local direction = (targetPosition - cameraPosition).unit
 				local ray = Ray.new(cameraPosition, direction * 1000)
@@ -54,12 +50,12 @@ local defualt = 80
 							if character and character:FindFirstChild("HumanoidRootPart") and character.Humanoid.Health > 0 then
 								local playerPos = camera.WorldToViewportPoint(camera, character.HumanoidRootPart.Position)
 								local distance = (Vector2.new(playerPos.X, playerPos.Y) - Vector2.new(mousePos.X, mousePos.Y)).Magnitude
-								if distance <= realFov and (character.HumanoidRootPart.Position - localPlayerRootPart).Magnitude < nearestDistance1 and _G.SAWC2 == false then
+								if distance <= realFov and (character.HumanoidRootPart.Position - localPlayerRootPart).Magnitude < _G.nearestDistance1 and _G.SAWC2 == false then
 									nearestPlayerName = player
 								end
 								if distance <= realFov and _G.SAWC2 then
 									if isPlayerInFront(player, character.HumanoidRootPart.Position, cameraPosition) then
-										if (character.HumanoidRootPart.Position - localPlayerRootPart).Magnitude < nearestDistance1 then
+										if (character.HumanoidRootPart.Position - localPlayerRootPart).Magnitude < _G.nearestDistance1 then
 											nearestPlayerName = player
 										end
 									end
@@ -76,4 +72,4 @@ local defualt = 80
 				end
 			else
 				require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList = getgenv().old
-			end	
+			end		
